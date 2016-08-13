@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Deployment xmlns="http://schemas.microsoft.com/windowsphone/2009/deployment" AppPlatformVersion="7.0">
+  <App xmlns="" ProductID="{340b4774-12fb-4f60-9591-79d0ffd7a9b2}" Title="Kosmic Warz" RuntimeType="XNA" Version="1.0.0.0" Genre="Apps.Games" Author="Nick Landry" Description="3D Space Shooter" Publisher="Big Bald Games">
+    <IconPath IsRelative="true" IsResource="false">SpaceInvadersWP7Tile173.png</IconPath>
+    <Capabilities>
+        <Capability Name="ID_CAP_NETWORKING" />
+        <Capability Name="ID_CAP_LOCATION" />
+        <Capability Name="ID_CAP_SENSORS" />
+        <Capability Name="ID_CAP_MICROPHONE" />
+        <Capability Name="ID_CAP_MEDIALIB" />
+        <Capability Name="ID_CAP_GAMERSERVICES" />
+        <Capability Name="ID_CAP_PHONEDIALER" />
+        <Capability Name="ID_CAP_PUSH_NOTIFICATION" />
+        <Capability Name="ID_CAP_WEBBROWSERCOMPONENT" />
+    </Capabilities>
+    <Tasks>
+      <DefaultTask Name="_default"/>
+    </Tasks>
+    <Tokens>
+      <PrimaryToken TokenID="BrashPilot" TaskName="_default">
+        <TemplateType5>
+          <BackgroundImageURI IsRelative="true" IsResource="false">SpaceInvadersWP7Tile173.png</BackgroundImageURI>
+          <Count>0</Count>
+          <Title> </Title>
+        </TemplateType5>
+      </PrimaryToken>
+    </Tokens>
+  </App>
+</Deployment>
+
